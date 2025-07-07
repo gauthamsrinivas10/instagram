@@ -84,5 +84,25 @@
             "username": "traveltom",
             "profile_pic": "src/assets/travelfreak.jpg"
           }
+  ],
+    "story": [
+    {
+      "id": "1",
+      "user": {
+        "id": "user_101",
+        "username": "johndoe",
+        "profile_pic": "src/assets/johndoe.jpg"
+      },
+      "image": "/src/assets/eiffel.jpg"
+    },       
+    {
+      "id": "2",
+      "user": {
+        "id": "user_104",
+        "username": "foodiequeen",
+        "profile_pic": "src/assets/foodiequeen.jpg"
+      },
+      "image": "/src/assets/grand-canyon.jpg" 
+    }
   ]
 }
