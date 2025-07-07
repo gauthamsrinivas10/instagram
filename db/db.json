@@ -54,38 +54,38 @@
     }
   ],
   "profile": {
-     "id": "user_101",
-        "username": "johndoe",
-        "profile_pic": "src/assets/johndoe.jpg"
+    "id": "user_101",
+    "username": "goms",
+    "profile_pic": "src/assets/eiffel.jpg"
   },
-  "suggestions":[
+  "suggestions": [
     {
-        "id": "user_101",
-        "username": "johndoe",
-        "profile_pic": "src/assets/johndoe.jpg"
-      },
-      {
-            "id": "user_102",
-            "username": "janesmith",
-            "profile_pic": "src/assets/janesmith.jpg"
-          },
-           {
-            "id": "user_103",
-            "username": "travelfreak",
-            "profile_pic": "src/assets/travelfreak.jpg"
-          },
-           {
-            "id": "user_104",
-            "username": "travelanna",
-            "profile_pic": "src/assets/travelfreak.jpg"
-          },
-           {
-            "id": "user_105",
-            "username": "traveltom",
-            "profile_pic": "src/assets/travelfreak.jpg"
-          }
+      "id": "user_101",
+      "username": "johndoe",
+      "profile_pic": "src/assets/johndoe.jpg"
+    },
+    {
+      "id": "user_102",
+      "username": "janesmith",
+      "profile_pic": "src/assets/janesmith.jpg"
+    },
+    {
+      "id": "user_103",
+      "username": "travelfreak",
+      "profile_pic": "src/assets/travelfreak.jpg"
+    },
+    {
+      "id": "user_104",
+      "username": "travelanna",
+      "profile_pic": "src/assets/travelfreak.jpg"
+    },
+    {
+      "id": "user_105",
+      "username": "traveltom",
+      "profile_pic": "src/assets/travelfreak.jpg"
+    }
   ],
-    "story": [
+  "story": [
     {
       "id": "1",
       "user": {
@@ -94,7 +94,7 @@
         "profile_pic": "src/assets/johndoe.jpg"
       },
       "image": "/src/assets/eiffel.jpg"
-    },       
+    },
     {
       "id": "2",
       "user": {
@@ -102,7 +102,17 @@
         "username": "foodiequeen",
         "profile_pic": "src/assets/foodiequeen.jpg"
       },
-      "image": "/src/assets/grand-canyon.jpg" 
+      "image": "/src/assets/grand-canyon.jpg"
+    }
+  ],
+  "followers": [
+    {
+      "id": "user_102",
+      "username": "janesmith"
+    },
+    {
+      "id": "user_104",
+      "username": "travelanna"
     }
   ]
 }

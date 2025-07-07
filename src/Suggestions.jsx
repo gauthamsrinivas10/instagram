@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import { useState } from 'react'
-
+import axios from 'axios';
 function Suggestions() {
 
   const [profile,setProfile] = useState(null);
@@ -20,6 +20,12 @@ function Suggestions() {
     .catch(err=> console.log(err))
     
   },[]  );
+
+  const handleFollow = async(id, username) => {
+    axios.post('http://localhost:3000/followers' , {"id": id , "username": username})
+    .then(alert('followed'))
+        .catch(err=> console.log(err))
+  }
   return (
     <div>
       <div className='suggestions w-75 m-4'>
@@ -42,7 +48,7 @@ function Suggestions() {
                 <div className='d-flex'> 
                     <img className="dp rounded-circle" src= {suggestion.profile_pic} alt ="Profile pic"></img>
                     <h5>{suggestion.username}</h5>
-                    <small className=' ms-auto text-primary'>Follow</small>
+                    <a className=' ms-auto text-primary' onClick={()=> {handleFollow(suggestion.id,suggestion.username)}}>Follow</a>
                 </div>
               
 
