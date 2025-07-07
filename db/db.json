@@ -1,0 +1,56 @@
+{
+  "posts": [
+    {
+      "id": "post_001",
+      "user": {
+        "id": "user_101",
+        "username": "johndoe",
+        "profile_pic": "src/assets/johndoe.jpg"
+      },
+      "image": "src/assets/posts_001.jpg",
+      "caption": "Enjoying the sunset! 🌅",
+      "likes": 128,
+      "comments": [
+        {
+          "user": {
+            "id": "user_102",
+            "username": "janesmith",
+            "profile_pic": "src/assets/janesmith.jpg"
+          },
+          "comment": "Looks amazing!"
+        },
+        {
+          "user": {
+            "id": "user_103",
+            "username": "travelfreak",
+            "profile_pic": "src/assets/travelfreak.jpg"
+          },
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-07-04T14:32:00Z"
+    },
+    {
+      "id": "post_002",
+      "user": {
+        "id": "user_104",
+        "username": "foodiequeen",
+        "profile_pic": "src/assets/foodiequeen.jpg"
+      },
+      "image": "src/assets/post_002.jpg",
+      "caption": "Best brunch in town 🥞☕️",
+      "likes": 230,
+      "comments": [
+        {
+          "user": {
+            "id": "user_105",
+            "username": "hungrytraveler",
+            "profile_pic": "src/assets/hungrytraveler.jpg"
+          },
+          "comment": "That looks delicious!"
+        }
+      ],
+      "timestamp": "2025-07-03T10:15:30Z"
+    }
+  ]
+}
