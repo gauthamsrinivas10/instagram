@@ -52,5 +52,37 @@
       ],
       "timestamp": "2025-07-03T10:15:30Z"
     }
+  ],
+  "profile": {
+     "id": "user_101",
+        "username": "johndoe",
+        "profile_pic": "src/assets/johndoe.jpg"
+  },
+  "suggestions":[
+    {
+        "id": "user_101",
+        "username": "johndoe",
+        "profile_pic": "src/assets/johndoe.jpg"
+      },
+      {
+            "id": "user_102",
+            "username": "janesmith",
+            "profile_pic": "src/assets/janesmith.jpg"
+          },
+           {
+            "id": "user_103",
+            "username": "travelfreak",
+            "profile_pic": "src/assets/travelfreak.jpg"
+          },
+           {
+            "id": "user_104",
+            "username": "travelanna",
+            "profile_pic": "src/assets/travelfreak.jpg"
+          },
+           {
+            "id": "user_105",
+            "username": "traveltom",
+            "profile_pic": "src/assets/travelfreak.jpg"
+          }
   ]
 }
